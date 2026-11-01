@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcadebox | Kyra Jongenelen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body class="project-detail-body">
+
+    <!-- VASTE NAVIGATIEBALK BOVENAAN -->
+    <header class="site-header">
+        <div class="header-inner">
+            <!-- Logo stuurt terug naar de bovenkant van de homepage -->
+            <a href="index.html" class="logo-link" title="Terug naar de homepage">
+                <img src="images/logo.png" alt="KJ Logo" class="logo-img">
+            </a>
+
+            <div class="header-right">
+                <nav aria-label="Hoofdnavigatie">
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="index.html#portfolio" class="nav-link active">mijn projecten</a>
+                        </li>
+                        <li>
+                            <a href="index.html#over-mij" class="nav-link">over mij</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="detail-container">
+        
+        <!-- Knop 'Terug naar overzicht' stuurt naar de bovenkant van de homepage -->
+        <a href="index.html" class="btn-back">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Terug naar overzicht
+        </a>
+
+        <div class="project-detail-header">
+            <h1 class="project-detail-title">Arcadebox</h1>
+            
+        </div>
+
+        <!-- HORIZONTAAL SCROLLBARE FOTOGALERIJ MET 12PX BLAUWE BORDER PER FOTO -->
+        <div class="horizontal-gallery-wrapper">
+            <div class="gallery-scroll-hint">
+                <span></span>
+            </div>
+            <div class="horizontal-gallery-scroll" id="horizontalGallery">
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 1.jpg" alt="Arcadebox foto 1" class="gallery-item-img">
+                </div>
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 2.jpg" alt="Arcadebox foto 2" class="gallery-item-img">
+                </div>
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 3.jpg" alt="Arcadebox foto 3" class="gallery-item-img">
+                </div>
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 4.jpg" alt="Arcadebox foto 4" class="gallery-item-img">
+                </div>
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 5.jpg" alt="Arcadebox foto 5" class="gallery-item-img">
+                </div>
+                <div class="gallery-item-card" title="Klik om te vergroten">
+                    <img src="images/Arcadebox foto's/arcadebox foto 6.png" alt="Arcadebox foto 6" class="gallery-item-img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Inhoud: Hoe ziet het eruit & Hoe is het gemaakt -->
+        <div class="detail-content-grid">
+            <div class="detail-story">
+                
+                <div class="story-section">
+                    <h2 class="story-heading">Wat houdt het project in?</h2>
+                    <p class="story-text">
+                   De opdracht was het maken van een werkende, fysieke arcade controller box. Ook moest de buitenkant gedecoreerd en gedesignd worden met persoonlijke interesses. Bij dit project hoort ook een digitaal spel, gebaseerd op flappybird. Deze uitleg zal verder gaan over de arcadebox zelf, maar ik heb ook een foto toegevoegd van het digitale spel, zodat je een beeld kan vormen van de connectie in stijl tussen de arcadebox en het spel zelf. </p>
+                    <p class="story-text">
+                    </p>
+                </div>
+
+                <div class="story-section">
+                    <h2 class="story-heading">Werkwijze en proces</h2>
+                    <p class="story-text">
+                    </p>
+                    <ul class="story-list">
+                        <li><strong>Houtbewerking & Constructie:</strong> De basisdoos is in elkaar gezet met houtlijm en een nietpistool. Hierna is de buitenkant geschuurd voor een gladde afwerking.</li>
+                        <li><strong>Laserbewerking op acrylplaat:</strong> De bovenplaat is gemaakt uit acrylaat, waarin met behulp van lasergravering de maanoppervlakken, sterrenbanen en mijn naam nauwkeurig gegraveerd is. Het ontwerp voor deze gravering is gemaakt in illustrator, voor duidelijke en scherpe lijnen. </li>
+                        <li><strong>Schilderwerk & Details:</strong> De houten zijkanten zijn beschilderd in een kleuroverloop van lichtblauw naar donkerblauw. De linkerkant heeft een zon op de zijkant en de rechterkant een maan. In het midden is het een combinatie van de zon en de maan, omdat mijn naam ‘Kyra Luna’ ‘Zon maan’ betekent.</li>
+                        <li><strong>Elektronica:</strong> In de arcadebox zit de bedrading die de werking van de controller mogelijk maakt. Zelf heb ik de draden aan elkaar gesoldeerd, alles met een arduino board op de goede plekken met elkaar verbonden en vervolgens heb ik met een kabel de juiste digitale code op het arduino board gezet, zodat het werkt. </li>
+                        <li><strong>3d modelleren:</strong> De joystick is gemaakt met behulp van Blender en een 3d printer. Er was een basismodel voor de joystick gemaakt en ik heb er zelf sterretjes en een maan aan toegevoegd, zodat het bij de stijl van de rest van de box paste.</li>
+                    </ul>
+                </div>
+
+                <div class="story-section">
+                    <h2 class="story-heading">Reflectie eindresultaat</h2>
+                    <p class="story-text">
+                    Over het algemeen ben ik tevreden met het eindresultaat. In dit project heb ik voor het eerst een spel in Unity gemaakt, voor het eerst met Blender gewerkt en voor het eerst een grote knop gesoldeerd. Het solderen van de knop ging erg soepel, aangezien ik al ervaring had met gewone draden aan elkaar solderen. Als ik mezelf nog verbeterpunten kan geven is het dat ik nog meer mag oefenen met Unity en Blender, aangezien het nog best complexe programma’s zijn.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Zijbalk met specificaties -->
+            <aside class="detail-sidebar">
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Waar en wanneer gemaakt?</h3>
+                    <p style="font-size: 14px; color: #2d3748; font-weight: 600;">Waar: CMD Avans Breda</p>
+                    <p style="font-size: 13px; color: #718096;">Wanneer: Juni 2026</p>
+                </div>
+
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Programma's</h3>
+                    <div class="sidebar-tags">
+                        <span class="sidebar-tag">Unity</span>
+                        <span class="sidebar-tag">Adobe Illustrator</span>
+                        <span class="sidebar-tag">Blender</span>
+                        <span class="sidebar-tag">Visual studio code</span>
+                    
+                    </div>
+                </div>
+
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Technieken</h3>
+                    <div class="sidebar-tags">
+                        <span class="sidebar-tag">schuren</span>
+                        <span class="sidebar-tag">nieten</span>
+                        <span class="sidebar-tag">lasersnijden</span>
+                        <span class="sidebar-tag">coderen</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-block">
+               </div>
+            </aside>
+        </div>
+
+        <!-- Project Navigatie (Vorige / Volgende) -->
+        <div class="project-pagination">
+            <a href="project-data.html" class="pagination-link">
+                ← Vorig project: Rust in de stad
+            </a>
+            <a href="project-lamp.html" class="pagination-link">
+                Volgend project: Houten lamp →
+            </a>
+        </div>
+
+    </main>
+
+    <!-- VASTE CONTACTBALK ONDERAAN -->
+    <footer class="fixed-footer">
+        <div class="footer-inner">
+            <span class="footer-item">
+                <span class="footer-label">email:</span>
+                <a href="mailto:kyrajonge@hotmail.com" class="footer-link">kyrajonge@hotmail.com</a>
+            </span>
+            <span class="footer-divider">|</span>
+            <span class="footer-item">
+                <span class="footer-label">telefoon:</span>
+                <a href="tel:0638282373" class="footer-link">0638282373</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Sluit vergroting">&times;</button>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="Vergrote afbeelding" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

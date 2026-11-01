@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust in de stad | Kyra Jongenelen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body class="project-detail-body">
+
+    <!-- VASTE NAVIGATIEBALK BOVENAAN -->
+    <header class="site-header">
+        <div class="header-inner">
+            <!-- Logo stuurt terug naar de bovenkant van de homepage -->
+            <a href="index.html" class="logo-link" title="Terug naar de homepage">
+                <img src="images/logo.png" alt="KJ Logo" class="logo-img">
+            </a>
+
+            <div class="header-right">
+                <nav aria-label="Hoofdnavigatie">
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="index.html#portfolio" class="nav-link active">mijn projecten</a>
+                        </li>
+                        <li>
+                            <a href="index.html#over-mij" class="nav-link">over mij</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="detail-container">
+        
+        <!-- Knop 'Terug naar overzicht' stuurt naar de bovenkant van de homepage -->
+        <a href="index.html" class="btn-back">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Terug naar overzicht
+        </a>
+
+        <div class="project-detail-header">
+            <h1 class="project-detail-title">Rust in de stad</h1>
+            
+        </div>
+
+        <!-- HORIZONTAAL SCROLLBARE FOTOGALERIJ MET 12PX BLAUWE BORDER PER FOTO -->
+        <div class="horizontal-gallery-wrapper">
+            <div class="gallery-scroll-hint">
+                
+            </div>
+            <div class="horizontal-gallery-scroll" id="horizontalGallery">
+                <div class="gallery-item-card" style="background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px;" title="Klik om te vergroten">
+                    <div style="color: #4a5568;">
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#588EB7" stroke-width="1.8" style="margin: 0 auto 12px auto; display: block;">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                            <circle cx="12" cy="4" r="2"></circle>
+                            <circle cx="6" cy="14" r="2"></circle>
+                            <circle cx="18" cy="10" r="2"></circle>
+                        </svg>
+                        <h4 style="font-family: var(--font-heading); font-size: 20px; color: #1a202c; margin-bottom: 6px;">Eindproduct </h4>
+                        <p style="font-size: 13px; line-height: 1.4;">Foto van het eindproduct
+                            <img src="images/project 5.JPG" alt="Expositie en storyboard posters" class="gallery-item-img">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-item-card" style="background-color: #edf2f7; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px;" title="Klik om te vergroten">
+                    <div style="color: #4a5568;">
+                        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#588EB7" stroke-width="1.8" style="margin: 0 auto 12px auto; display: block;">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                        <h4 style="font-family: var(--font-heading); font-size: 20px; color: #1a202c; margin-bottom: 6px;">Proces</h4>
+                        <p style="font-size: 13px; line-height: 1.4;">Foto van het proces
+                            <img src="images/project 5.1.JPG" alt="Expositie en storyboard posters" class="gallery-item-img">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inhoud: Hoe ziet het eruit & Hoe is het gemaakt -->
+        <div class="detail-content-grid">
+            <div class="detail-story">
+                
+                <div class="story-section">
+                    <h2 class="story-heading">Wat houdt het project in?</h2>
+                    <p class="story-text">
+                   </p>Hoe hou je net afgestudeerden in Breda? Dat is de vraag waar de opdrachtgever aan ons stelde. Veel leerlingen studeren in Breda, maar verhuizen na hun studie al gouw naar de randstad of terug naar hun eigen dorp. De opdrachtgever vroeg zich af waarom ze niet in Breda wilden blijven wonen. Wat mist Breda nog? Hoe kunnen we ervoor zorgen dat meer studenten kiezen om na hun studie in Breda te blijven wonen?
+                    <p class="story-text">
+                   </p>
+                </div>
+
+                <div class="story-section">
+                    <h2 class="story-heading">Werkwijze en proces</h2>
+                    <p class="story-text">
+                   </p>
+                    <ul class="story-list">
+                        <li><strong>Onderzoek:</strong> Om goed de problemen van de doelgroep in beeld te krijgen zijn er verschillende onderzoeken uitgevoerd. Een vragenlijst, gerichte vragen aan naasten en interviews bij BUAS. Hieruit kwam dat een aantal mensen de stad te druk of de onveilig vinden. Verder dachten een aantal studenten ook dat de baankansen in de randstad beter waren.</li>
+                        <li><strong>Experimenteren:</strong> De problemen dit gekozen zijn om aan te pakken, zijn de drukte en het gevoel van onveiligheid. Om dit op de lossen zijn er ideeën bedacht die de stad letterlijk 'stiller' maken en ideeën die mogelijkheden voor middagactiviteiten faciliteren, waardoor mensen zich minder onveilig voelen. </li>
+                        <li><strong>Maken prototype:</strong> Uiteindelijk werd het idee 'glazen domes' gekozen door Wardtaal. Dit sprak mij persoonlijk het meest aan en had veel mogelijkheden die het probleem écht aan kunenn pakken. Omdat iedereen rust anders ervaart, zijn er verschillende domes gemaakt, zoals bijvoorbeeld de strand en botanische dome. Deze zijn ook fysiek uitgewerkt met karton, houten stokjes, verf en papier.</li>
+                        <li><strong>Eindpresentatie:</strong> Nadat het concept en het prototype uitgewerkt waren is het idee voorgelegd aan de opdrachtgever tijdens een fysieke presentatie op Avans. Hierbij heb ik met behulp van een powerpoint en mijn fysieke prototype laten zien hoe het eruit kan komen te zien en ook heb ik hierbij verteld hoe het het probleem van de weggaande studenten op kan lossen. </li>
+                    </ul>
+                </div>
+
+                <div class="story-section">
+                    <h2 class="story-heading">Reflectie eindresultaat</h2>
+                    <p class="story-text">
+                       Het was best pittig om een heel project in mijn eentje te draaien in de korte tijd van 4 weken, maar ik ben wel tevreden met het resultaat. Het heeft erg bijgedragen dat ik elke week contact heb gehad met de opdrachtgever om ervoor te zorgen dat beide groepen tevreden waren. Verder vond ik het ook erg interessant om me te verdiepen in de verschillende meningen van de studenten. Het maken van het fysieke prototype was zeker ook een uitdaging, maar het heeft wel tot een duidelijk resultaat geleidt.
+                     </p>
+                </div>
+
+            </div>
+
+            <!-- Zijbalk met specificaties -->
+            <aside class="detail-sidebar">
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Waar en wanneer gemaakt?</h3>
+                    <p style="font-size: 14px; color: #2d3748; font-weight: 600;">Waar: CMD Avans Breda</p>
+                    <p style="font-size: 13px; color: #718096;">Wanneer: Oktober 2026 </p>
+                </div>
+
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title">Programma's</h3>
+                    <div class="sidebar-tags">
+                        <span class="sidebar-tag">Adobe Illustrator</span>
+                        <span class="sidebar-tag">Visual Studio Code</span>
+                        <span class="sidebar-tag">Google Gemini</span>
+                        <span class="sidebar-tag">Microsoft Powerpoint</span>
+
+                        
+                    </div>
+                </div>
+
+                 <div class="sidebar-block">
+                    <h3 class="sidebar-title">Technieken</h3>
+                    <div class="sidebar-tags">
+                        <span class="sidebar-tag">Vibecoding</span>
+                        <span class="sidebar-tag">Origami</span>
+                        <span class="sidebar-tag">Crazy 8</span>
+                        
+                    </div>
+                </div>
+
+                <div class="sidebar-block">
+                 </div>
+            </aside>
+        </div>
+
+        <!-- Project Navigatie (Vorige / Volgende) -->
+        <div class="project-pagination">
+            <a href="project-momo.html" class="pagination-link">
+                ← Vorig project: Momo gemeente Breda
+            </a>
+            <a href="project-arcadebox.html" class="pagination-link">
+                Volgend project: Arcadebox →
+            </a>
+        </div>
+
+    </main>
+
+    <!-- VASTE CONTACTBALK ONDERAAN -->
+    <footer class="fixed-footer">
+        <div class="footer-inner">
+            <span class="footer-item">
+                <span class="footer-label">email:</span>
+                <a href="mailto:kyrajonge@hotmail.com" class="footer-link">kyrajonge@hotmail.com</a>
+            </span>
+            <span class="footer-divider">|</span>
+            <span class="footer-item">
+                <span class="footer-label">telefoon:</span>
+                <a href="tel:0638282373" class="footer-link">0638282373</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Sluit vergroting">&times;</button>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="Vergrote afbeelding" class="lightbox-img" id="lightboxImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
